@@ -1,24 +1,19 @@
 import React from 'react';
 import './App.css';
+import React, { Component } from 'react';
 import "materialize/dist/css/materialize.min.css";
 
 
 class App extends Component {
   render() {
      return (
-      <Provider store={store}>
-      <Router>
+   
+     
         <div className="App">
-          <Navbar />
-          <Route exact path="/" component={Landing} />
-          <Route exact path="/register" component={Register} />
-          <Route exact path="/login" component={Login} />
-          <Switch>
-            <PrivateRoute exact path="/dashboard" component={School} />
-          </Switch>
+          <h2>Hello Reggie</h2>
         </div>
-      </Router>
-    </Provider>
+     
+    
   );
     
   }
