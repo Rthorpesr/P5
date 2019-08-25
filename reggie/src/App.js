@@ -4,8 +4,8 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import createhomework from "./components/createhomework.js";
-import edithomework from "../src/components/edithomework.component";
-import homeworklist from "../src/components/homeworklist.component";
+import edithomework from "./components/edithomework.js";
+import homeworklist from "./components/homeworklist.js";
 
 class App extends Component {
   render() {
